@@ -97,7 +97,7 @@
         </div>
       </nav>
       <!-- Banner start here -->
-      <div class="relative px-3">
+      <div class="relative px-3 lg:px-0">
         <div class="carousel w-full rounded-md">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="./Images/1.png" class="w-full" />
@@ -174,16 +174,108 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="container mx-auto">
       <!-- Professional Hockey -->
-      <section>
-        <h1 class="text-4xl text-center font-extrabold">
-          Professional Hockeys Club
-        </h1>
-        <p class="text-gray-300 text-center w-[660px] mx-auto mt2">
-          Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
-          placerat dolor. Purus urna in sit nullam proin.
-        </p>
+      <section class="mb-8">
+        <!-- Title -->
+        <div class="border-y-2 border-dashed py-[32px]">
+          <h1 class="text-4xl text-center font-extrabold mb-3">
+            Professional Hockeys Club
+          </h1>
+          <p class="text-gray-300 text-center w-[660px] mx-auto mt2">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+        <!-- Radial Progress -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-24">
+          <div
+            class="relative px-3 lg:px-0 flex flex-col justify-center items-center"
+          >
+            <div class="relative mb-4">
+              <div
+                class="radial-progress text-red-500"
+                style="--value: 87"
+                role="progressbar"
+              >
+                <h3 class="font-bold text-2xl text-black">87%</h3>
+              </div>
+              <div
+                class="-z-10 absolute rotate-90 top-0 left-0 radial-progress text-slate-300"
+                style="--value: 87"
+                role="progressbar"
+              ></div>
+            </div>
+            <h2 class="text-xl font-medium mb-4">Prayer facility</h2>
+            <p class="text-center">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+          <!-- Progress 2 -->
+          <div class="relative flex flex-col justify-center items-center">
+            <div class="relative mb-4">
+              <div
+                class="radial-progress text-green-400"
+                style="--value: 95"
+                role="progressbar"
+              >
+                <h3 class="font-bold text-2xl text-black">95%</h3>
+              </div>
+              <div
+                class="-z-10 absolute rotate-90 top-0 left-0 radial-progress text-slate-300"
+                style="--value: 87"
+                role="progressbar"
+              ></div>
+            </div>
+            <h2 class="text-xl font-medium mb-4">Experience Coach</h2>
+            <p class="text-center">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+          <!-- 3 -->
+          <div class="relative flex flex-col justify-center items-center">
+            <div class="relative mb-4">
+              <div
+                class="radial-progress text-yellow-400"
+                style="--value: 90"
+                role="progressbar"
+              >
+                <h3 class="font-bold text-2xl text-black">90%</h3>
+              </div>
+              <div
+                class="-z-10 absolute rotate-90 top-0 left-0 radial-progress text-slate-300"
+                style="--value: 87"
+                role="progressbar"
+              ></div>
+            </div>
+            <h2 class="text-xl font-medium mb-4">Senior Prayer</h2>
+            <p class="text-center">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+
+          <!-- 4 -->
+          <div class="relative flex flex-col justify-center items-center">
+            <div class="relative mb-4">
+              <div
+                class="radial-progress text-blue-400"
+                style="--value: 80"
+                role="progressbar"
+              >
+                <h3 class="font-bold text-2xl text-black">80%</h3>
+              </div>
+              <div
+                class="-z-10 absolute rotate-90 top-0 left-0 radial-progress text-slate-300"
+                style="--value: 87"
+                role="progressbar"
+              ></div>
+            </div>
+            <h2 class="text-xl font-medium mb-4">Traing Ground</h2>
+            <p class="text-center">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+        </div>
       </section>
     </main>
     <footer></footer>
